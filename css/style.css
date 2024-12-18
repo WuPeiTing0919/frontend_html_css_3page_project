@@ -155,8 +155,8 @@ a{
 	background-color: #63baa5;
 }
 
-.banner a span:first-child,
-.course_submit a span:first-child{
+.banner a span,
+.course_submit a span{
 	margin-right: 24px;
 }
 
@@ -211,7 +211,8 @@ a{
 	line-height: 2;
 }
 
-.submit form input[type="text"]{
+.submit form input[type="text"],
+.submit form input[type="email"]{
 	width: 460px;
 	padding: 16px 20px;
 	border-radius: 5px;
